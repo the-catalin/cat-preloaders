@@ -1,0 +1,23 @@
+<style>
+	.cat-spinbox-preloader {
+	    margin: auto;
+	    position: absolute;
+	    margin: auto;
+	    left: 0;
+	    top: 0;
+	    bottom: 0;
+	    right: 0;
+	    width: 10px;
+	    height: 10px;
+	    border-radius: 100%;
+	    box-shadow: 10px 10px rgb(79,77,73), -10px 10px rgb(223,223,223), -10px -10px rgb(79,77,73), 10px -10px rgb(223,223,223);
+	    animation: cssload-spin ease infinite 4.6s;
+	}
+	@keyframes cssload-spin {
+	    0%,
+	    100% {box-shadow: 10px 10px rgb(79,77,73), -10px 10px rgb(223,223,223), -10px -10px rgb(79,77,73), 10px -10px rgb(223,223,223);}
+	    25% {box-shadow: -10px 10px rgb(223,223,223), -10px -10px rgb(79,77,73), 10px -10px rgb(223,223,223), 10px 10px rgb(79,77,73);}
+	    50% {box-shadow: -10px -10px rgb(79,77,73), 10px -10px rgb(223,223,223), 10px 10px rgb(79,77,73), -10px 10px rgb(223,223,223);}
+	    75% {box-shadow: 10px -10px #dfdfdf, 10px 10px #4f4d49, -10px 10px #dfdfdf, -10px -10px #4f4d49;}
+	}
+</style>

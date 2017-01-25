@@ -1,0 +1,23 @@
+{
+  "name": "cat-preloaders",
+  "version": "0.1.0",
+  "description": "Simple CSS preloaders used in cat-components",
+  "authors": [
+    "Catalin Ungureanu <catalinungureanu@gmail.com>"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "preloader",
+    "preloaders"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/the-catalin/cat-preloaders",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
